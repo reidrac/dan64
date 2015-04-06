@@ -1,0 +1,70 @@
+# Introduction
+ - writer's background
+ - motivation
+ - how to read the book
+
+# DAN64 specification
+ - requirements
+ - target platform
+ - incremental design and modularity
+
+# Video output
+ - Composite video, PAL
+ - SPI
+ - External SRAM and SPI
+ - Limitations
+
+# Memory
+ - Memory map
+   - internal: flash, SRAM, EEPROM
+   - external: SRAM
+   - layout
+   - cache
+ - Shared memory
+ - Limitations
+
+# Virtual machine
+ - Harvard architecture
+ - Discarded VM candidates (Z80, MIPS, AVR)
+ - Emulating the MOS 6502
+ - VM services: SYS
+
+# Keyboard input
+ - PS/2 protocol
+ - Keyboard mapping
+ - USART
+
+# Storage
+ - Party like is 80s
+ - PSK encoding
+ - Pin change interrupts
+ - PWM and audio out
+ - Frequencies, volume and speed
+ - Limitations
+
+# Hardware design
+ - Hardware description
+ - Component list
+   - 64KB memory
+   - transistors
+   - diodes
+   - capacitors
+ - PCB design
+
+# Appendix: The shell
+ - Command list and description
+
+# Appendix: Tools
+ - AVR tools
+   - AVR C
+   - Avrdude
+   - USBASP
+ - CC65 cross-compiler
+   - about CC65
+   - as65 assembler
+   - cc65 C compiler, crt0 and libc
+   - encode binaries
+
+# Appendix: DAN64 6502 VM Services
+ - service description
+

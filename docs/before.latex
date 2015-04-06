@@ -1,0 +1,22 @@
+\usepackage[margin=1in]{geometry}
+\usepackage{pdfpages}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{hyperref}
+
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+	\rule{\linewidth}{0.5mm} \\[0.4cm]
+	{\LARGE\textbf{\@title}}
+	\rule{\linewidth}{0.5mm}
+	\\[0.4cm]
+    \@author
+	\\[0.4cm]
+    \@date
+\end{flushleft}\egroup
+}
+\makeatother
+

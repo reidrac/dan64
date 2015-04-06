@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="74mm"
+   height="52mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="dan64-logo.svg">
+  <title
+     id="title3342">DAN64 Logo</title>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3841616"
+     inkscape:cx="156.40876"
+     inkscape:cy="115.3542"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1918"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     units="mm" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>DAN64 Logo</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright (C) 2015 Juan J. Martínez &lt;jjm@usebox.net&gt;</dc:title>
+          </cc:Agent>
+        </dc:rights>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-868.11021)">
+    <g
+       id="g2996"
+       transform="translate(-22.555814,529.01744)">
+      <text
+         inkscape:export-ydpi="240"
+         inkscape:export-xdpi="240"
+         inkscape:export-filename="/home/reidrac/src/8-bit/images/logo-large.png"
+         sodipodi:linespacing="125%"
+         id="text2987"
+         y="452.50348"
+         x="24.288853"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;font-family:'Russo One';-inkscape-font-specification:'Russo One Italic'"
+           y="452.50348"
+           x="24.288853"
+           id="tspan2989"
+           sodipodi:role="line">DAN</tspan></text>
+      <path
+         id="path3022"
+         d="m 219.625,362.46875 -17.1875,38.96875 -42.34375,-4.59375 22.03125,30.09375 1.5625,-7.8125 c 0.85332,-4.1813 2.46582,-7.25604 4.8125,-9.21875 2.34665,-1.96262 5.5999,-2.93745 9.78125,-2.9375 5.8453,5e-5 12.81096,0.42796 20.875,1.28125 l -1.71875,8.65625 c -2.30404,-0.12796 -4.28496,-0.25838 -5.90625,-0.34375 -1.62137,-0.12796 -2.96462,-0.2073 -4.03125,-0.25 -1.02403,-0.0853 -2.0187,-0.16463 -3,-0.25 -1.70669,-0.0853 -3.29936,-0.12496 -4.75,-0.125 -2.60269,4e-5 -4.1046,1.0542 -4.53125,3.1875 l -1.15625,5.78125 c 4.30931,-0.8533 8.04156,-1.28122 11.15625,-1.28125 l 4.46875,0 c 2.9013,3e-5 5.06071,0.87569 6.46875,2.625 1.40796,1.74936 1.81604,4.06744 1.21875,6.96875 l -1.6875,8.3125 c -0.76804,3.88267 -2.30962,6.79875 -4.65625,8.71875 -2.3467,1.87733 -5.59995,2.8125 -9.78125,2.8125 l -12.1875,0 c -4.18134,0 -7.04634,-0.93517 -8.625,-2.8125 -1.57867,-1.92 -1.98675,-4.83608 -1.21875,-8.71875 l 0.5625,-2.84375 -19.6875,26.90625 L 202.4375,461 219.625,499.96875 236.8125,461 l 42.375,4.59375 -20.53125,-28 -1.15625,5.875 -4.5,0 -1.78125,8.9375 -11.53125,0 1.8125,-8.9375 -23.6875,0 1.78125,-8.96875 20.75,-26.875 12.78125,0 -20.71875,26.875 10.875,0 1.90625,-9.59375 11.53125,0 -0.71875,3.5625 23.1875,-31.625 -42.375,4.59375 -17.1875,-38.96875 z m -19.40625,70.09375 c -1.62136,2e-5 -3.15452,0.1106 -4.5625,0.28125 -1.36535,0.17069 -2.43935,0.28969 -3.25,0.375 L 191,440.25 c -0.51202,2.56001 0.50248,3.84376 3.0625,3.84375 l 5.78125,0 c 2.55997,10e-6 4.08172,-1.28374 4.59375,-3.84375 l 1.09375,-5.4375 c 0.12797,-0.63998 0.0288,-1.16706 -0.3125,-1.59375 -0.34136,-0.42665 -0.86003,-0.65623 -1.5,-0.65625 l -3.5,0 z m 54.9375,0.21875 -0.34375,1.71875 1.59375,0 -1.25,-1.71875 z"
+         style="fill:#000000"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
