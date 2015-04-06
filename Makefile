@@ -8,7 +8,8 @@ all:
 	make -C init
 	make -C docs
 
-cc65:
+# requires cc65 in the path
+cc65-support:
 	make -C cc65
 
 upload: all
