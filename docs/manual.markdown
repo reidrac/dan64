@@ -59,7 +59,7 @@ corner of the screen.
 The `load` command is used to load programs into DAN64. The programs are loaded
 starting at the `0x1a00` address, just after video memory.
 
-A external audio device able to play audio files (programs) is required. Connect
+An external audio device able to play audio files (programs) is required. Connect
 a 3.5mm audio cable from the audio output of your media device into DAN64 audio
 in jack.
 
@@ -113,11 +113,11 @@ The `save` command is used to save programs from DAN64 into external storage.
 Two optional parameters are supported: *start address* and *end address*. By
 default start address is `1a00` and the end address is `ffff`.
 
-Dor example, to save the first 512 bytes of user program:
+For example, to save the first 512 bytes of user program:
 
     save 1a00 1b00
 
-A external audio device able to record audio files (programs) is required. Connect
+An external audio device able to record audio files (programs) is required. Connect
 a 3.5mm audio cable from the audio out jack of DAN64 into the audio input of your
 media device.
 
@@ -147,7 +147,7 @@ it does, the result can be:
  - **ERR: PRG xx**: the program finished with error code `xx` (hexadecimal number).
  - **ERR: SYS xx**: the program generated an unsupported SYS call `xx` (hexadecimal number). 
 
-The programs are not checked for validity before run.
+The programs are not checked for validity before running.
 
 ### 1.1.6. peek
 
@@ -175,7 +175,7 @@ The `poke` command is used to set memory contents, one byte at a time. Press ent
 without providing a value in order to cancel the operation.
 
 One optional *address* parameter is supported. By default `poke` will start from
-address `0000` and increment bye one byte last address (unless a new address is provided).
+address `0000` and increment by one byte last address (unless a new address is provided).
 
 ### 1.1.7. list
 
