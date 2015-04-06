@@ -5,12 +5,12 @@
 This is my first _serious_ attempt to learn electronics. DAN64 is my first
 project and it has been a discovery process during 3 months of my free time. I
 had to learn a lot of things I didn't know much about, from basic electronics
-to the details of the AVRs -and specifically the ATmega328-, and whole world of
+to the details of the AVRs -and specifically the ATmega328-, and a whole world of
 things in between such as signalling, protocols, interfaces, modulation and
 demodulation, SDKs, EDA software, prototyping, PCB fabrication, etc.
 
 I'm certain that in this project I'm doing many stupid things and I'm sure my
-approach to solve some of the problems is not the bes, but in my discharge I can
+approach to solving some of the problems is not the best, but in my discharge I can
 only say: _it works!_ (to some extent at least).
 
 I got lots of _gotcha!_ moments, ups and downs where I though I couldn't finish
@@ -21,7 +21,7 @@ learning process and having fun.
 
 ## Objectives
 
-The term "8-bit microcomputer" might not be clear enough. What I meant with that
+The term "8-bit microcomputer" might not be clear enough. What I meant with it
 is that I wanted to build a computer like the ones I grew up in the 80s, the
 [ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum), the [Commodore
 64](https://en.wikipedia.org/wiki/Commodore_64) or the [Amstrad
@@ -32,7 +32,7 @@ a screen, and able to load external programs and run them.  It should be
 possible to use the computer to write new programs that could be saved to be
 loaded and run at a later time.
 
-So basically: a 8-bit microcomputer.
+So basically: an 8-bit microcomputer.
 
 ## Target platform
 
@@ -41,10 +41,10 @@ development board so the target platform for the microcomputer is the
 [ATmega328](http://www.atmel.com/devices/atmega328.aspx), a popular 8-bit
 microcontroller in the AVR family manufactured by Atmel.
 
-The AVR family implement a modified [Harvard
+The AVR family implements a modified [Harvard
 architecture](https://en.wikipedia.org/wiki/Harvard_architecture). The main
 characteristic is that code and data are accessed using different buses. The
-micontroller (MCU from now on) includes different types of purpose specific
+microcontroller (MCU from now on) includes different types of purpose specific
 memory:
 
  - Flash: contains the executable code and the MCU can't execute code that is
@@ -52,7 +52,7 @@ memory:
    architecture and that means that the code can be read as it was data (with
    some restrictions).
  - SRAM: volatile static memory.
- - EEPROM: read only memory that can be overwritten in some special conditions.
+ - EEPROM: read only memory that can be overwritten under some special conditions.
 
 So my requirement of "load and run programs" is not trivial to achieve in a
 Harvard architecture because the flash memory is not easy to rewrite, so I
@@ -68,13 +68,13 @@ and make the native code in the flash "interpret" that data:
    [Zilog Z80](https://en.wikipedia.org/wiki/Zilog_Z80) and
    [MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502).
 
-A microcomputer without software is not very useful so I didn't feel like writing
+A microcomputer without software is not very useful but I didn't feel like writing
 much software myself using my own dialect of Basic or Forth so I decided to
 implement a virtual machine, specially because there was the option to use a
 cross compiler.
 
 I finally went with the MOS 6502, for several reasons. Partly because it seemed
-to me simpler than the other contenders (as in _simpler to implement_), it is a
+to me simpler than the other contenders (as in _simpler to implement_), it is an
 8-bit CPU (the AVR is 8-bit too), and there are a lot of resources and documentation
 really useful to build simulators.
 
