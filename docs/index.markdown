@@ -244,7 +244,7 @@ disabled when programs are being saved.
 
 ## Media
 
-You can watch several short videos of the development process in this [YouTube
+You can watch several short videos of the development process in [this YouTube
 playlist](https://www.youtube.com/playlist?list=PLvI1iQmfH6UMJUAfsyax0VGHfUk-wekLz).
 
 Click on the images for a full size version.
@@ -263,7 +263,7 @@ The DAN64 screenshots were taken using VLC and a composite video capture card.
 Unless stated otherwise all the software is MIT licensed (see [LICENSE](LICENSE) file for further
 details).
 
- * [DAN64 v1 binary](dan64_v1-bin.zip) (ZIP; includes the latest firmware: 2015-04-06)
+ * [DAN64 v1 binary](dan64_v1-bin.zip) (ZIP; includes the latest firmware for Arduino Uno: 2015-04-06)
  * [DAN64 hello world binary](hello.wav) (WAV; be careful, noisy!)
 
 The schematics and the build instructions (based in the v1.r0 PCB) are distributed
