@@ -7,7 +7,7 @@ edges to differentiate between zeroes and ones.
 As different programs are expected to be stored in different audio files and
 the playback will happen from a reliable medium (at least more reliable than a
 cassette; eg, mp3 player), a very basic sync method is used. The signal always
-starts with a short low that translates in two changes that will be discarded.
+starts with short high/low that translates in 4 changes that will be discarded.
 
 There are two types of pulse: "short" and "long".
 
