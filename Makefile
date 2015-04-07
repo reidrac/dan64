@@ -6,6 +6,8 @@ all:
 	make -C storage
 	make -C dasm
 	make -C init
+
+doc:
 	make -C docs
 
 # requires cc65 in the path
@@ -13,7 +15,7 @@ cc65-support:
 	make -C cc65
 
 bin:
-	make all
+	make all doc
 	mkdir dan64_v1-bin
 	cp LICENSE docs/dan64_v1-manual.pdf init/main.hex init/main.bin init/main.srec dan64_v1-bin
 	zip -r dan64_v1-bin.zip dan64_v1-bin
