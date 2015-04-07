@@ -64,24 +64,27 @@ your path, just use `make`.
 The user programs can be encoded into audio using the `encode` tool in the
 storage module (requires POSIX `getopt` and `libsndfile`).
 
+Pandoc is required to build the documentation (although it is readable
+as it is in markdown format).
+
 
 Notes
 -----
 
 Video:
 
- - timing is set for PAL.
- - output is de-interlaced.
- - it may require set TV's AFC (Automatic Frequency Control) to "mode2"
+ - Timing is set for PAL.
+ - Output is de-interlaced.
+ - It may require set TV's AFC (Automatic Frequency Control) to "mode2"
    (usually for VCRs or Camcorders).
 
 Input:
 
- - supported UK PS/2 keyboard layout only, but is easy to adapt to other layouts.
+ - Supported UK PS/2 keyboard layout only, but is easy to adapt to other layouts.
 
 Storage:
 
- - audio in requires quite high volume, start with a 90% and adjust.
+ - Audio in requires quite high volume, start with a 90% and adjust.
 
 
 Author and licensing
