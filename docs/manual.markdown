@@ -462,8 +462,8 @@ D4          1N4148
 IC1         ATMEGA328-P
 J1          RCA Jack (CUI-RCJ-0140)
 M1          23LCV512
-P1          Stereo Audio Jack 3.3mm, SparkFun PRT-08032
-P2          Stereo Audio Jack 3.3mm, SparkFun PRT-08032
+P1          Stereo Audio Jack 3.5mm, SparkFun PRT-08032
+P2          Stereo Audio Jack 3.5mm, SparkFun PRT-08032
 P4          PS/2 Jack Mini DIN-6
 POWER       DC Power Barrel, PRT-00119
 Q1          BC548B NPN
