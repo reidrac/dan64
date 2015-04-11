@@ -265,6 +265,7 @@ details).
 
  * [DAN64 v1 binary](dan64_v1-bin.zip) (ZIP; includes the latest firmware for Arduino Uno: 2015-04-06)
  * [DAN64 hello world binary](hello.wav) (WAV; be careful, noisy!)
+ * [6502 bin to wav encoder](encode-windows-bin.zip) (ZIP; windows console app)
 
 The schematics and the build instructions (based in the v1.r0 PCB) are distributed
 under CERN OHL 1.2 terms (see [cern\_ohl\_v\_1\_2.txt](cern_ohl_v_1_2.txt) for further details).
