@@ -1,0 +1,16 @@
+all: dasm
+
+CC=i686-w64-mingw32-gcc
+AR=i686-w64-mingw32-ar
+CFLAGS=-s -O3 -Wall -I../../include -L. -mconsole
+
+dasm: dasm.c libdasm.a ../../include/dasm.h
+	$(CC) $(CFLAGS) dasm.c -ldasm -o dasm.exe
+
+libdasm.a: ../dasm.c ../../include/dasm.h
+	$(CC) $(CFLAGS) -c ../dasm.c -o dasm.o
+	$(AR) rcs libdasm.a dasm.o
+
+clean:
+	rm -f dasm.exe *.a *.o
+
