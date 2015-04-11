@@ -15,9 +15,9 @@ cc65-support:
 	make -C cc65
 
 bin:
-	make all doc
+	make all
 	mkdir dan64_v1-bin
-	cp LICENSE docs/dan64_v1-manual.pdf init/main.hex init/main.bin init/main.srec dan64_v1-bin
+	cp LICENSE init/main.hex init/main.bin init/main.srec dan64_v1-bin
 	zip -r dan64_v1-bin.zip dan64_v1-bin
 	rm -rf dan64_v1-bin
 	mv dan64_v1-bin.zip docs
