@@ -153,7 +153,6 @@ main(int argc, char *argv[])
 			if (op_len < 0)
 			{
 				fprintf(stderr, "%s: line %i, syntax error: %s\n", argv[1], len, ram);
-				fprintf(stderr, "%i\n", op_len);
 				break;
 			}
 
