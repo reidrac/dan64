@@ -54,7 +54,8 @@ Install GCC AVR compiler and toolchain, and run `make` in the top level
 directory.
 
 If `avrdude` is installed and you want to deploy to an Arduino Uno board
-you can try `make upload`, although some tweaking may be requited.
+you can try `make upload`, although some tweaking may be required (eg,
+the USB port).
 
 The examples and the CC65 runtime require the
 [CC65 compiler](https://github.com/cc65/cc65). If the binaries are in
