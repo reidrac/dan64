@@ -27,8 +27,7 @@ Project page: http://www.usebox.net/jjm/dan64/
 General directory structure
 ---------------------------
 
- - `docs/`: documentation of the project.
- - `schematics/`: KiCad schematics and PCB design.
+ - `docs/`: documentation of the project, including schematics.
  - source code:
    - `include/`: general include files.
    - `init/`: main entry point for the firmware, including the implementation
