@@ -40,10 +40,6 @@
 #define PAL_LINES_DBEGIN		((PAL_LINES_PER_FRAME / 2) - (PAL_LINES_CHARS / 2) + 8)
 #define PAL_LINES_DEND			(PAL_LINES_DBEGIN + PAL_LINES_CHARS)
 
-#define KEYB_BAUD				19200L
-#define KEYB_BAUDRATE			(F_CPU / (KEYB_BAUD * 16UL) - 1)
-#define KEYB_BUFFER_SIZE		16
-
 #define wait_spi_done()			loop_until_bit_is_set(SPSR, SPIF)
 
 void video_init();
