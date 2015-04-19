@@ -85,6 +85,8 @@ Input:
 Storage:
 
  - Audio in requires quite high volume, start with a 90% and adjust.
+ - If you have problems loading DAN64 saved programs, try using a smaller value
+   for R3 (eg. 320 instead of 1K).
 
 
 Author and licensing
