@@ -43,5 +43,5 @@ microcomputer may not load back. It is OK for up to a couple of KBs, but more th
 that is probably not usable.
 
 Also the device used to record the audio out may not register enough volume level
-so it can be read back by the microcomputer.
-
+so it can be read back by the microcomputer. You can also try reducing the value
+of R3.
