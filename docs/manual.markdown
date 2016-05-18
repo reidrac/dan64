@@ -1,6 +1,6 @@
 % DAN64: an AVR based 8-bit Microcomputer
 % Juan J. Martínez <jjm@usebox.net>
-% Manual for V1.R0 - April 5, 2015
+% Manual for V1.R2 - May 18, 2016
 
 # Features
 
@@ -485,10 +485,6 @@ X1          16MHz Crystal Oscillator
 ---------   -----
 
 : Component list
-
-Errata:
-
- - C5 is not an electrolytic capacitor (referenced in PCB V1.R0).
 
 \includepdf[pages=-,angle=90,addtotoc={1,section,1,Appendix B: Schemantics,schematics1}]{dan64_v1-schematics.pdf}
 
