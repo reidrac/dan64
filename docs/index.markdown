@@ -267,17 +267,13 @@ details).
  * [DAN64 hello world binary](hello.wav) (WAV; be careful, noisy!)
  * [6502 bin to wav encoder](encode-windows-bin.zip) (ZIP; windows console app)
 
-The schematics and the build instructions (based in the v1.r0 PCB) are distributed
-under CERN OHL 1.2 terms (see [cern\_ohl\_v\_1\_2.txt](cern_ohl_v_1_2.txt) for further details).
+The schematics and the build instructions are distributed under CERN OHL 1.2
+terms (see [cern\_ohl\_v\_1\_2.txt](cern_ohl_v_1_2.txt) for further details).
 
  * [DAN64 rev1 schematics](dan64_v1-schematics.pdf) (PDF)
  * [DAN64 V1.R0 manual](dan64_v1-manual.pdf) (PDF; includes VM API docs, schematics, component list, etc)
 
 The microcomputer can be assembled on a breadboard with a regular Arduino Uno.
-
-I may have some spare PCBs and components in case you want a DIY kit to build
-your own more permanent version of DAN64. Feel free to [contact
-me](http://www.usebox.net/jjm/about/contact/)!
 
 ## Development
 
