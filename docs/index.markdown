@@ -270,8 +270,8 @@ details).
 The schematics and the build instructions are distributed under CERN OHL 1.2
 terms (see [cern\_ohl\_v\_1\_2.txt](cern_ohl_v_1_2.txt) for further details).
 
- * [DAN64 rev2 schematics](dan64_v1-schematics.pdf) (PDF)
- * [DAN64 V1.R2 manual](dan64_v1-manual.pdf) (PDF; includes VM API docs, schematics, component list, etc)
+ * [DAN64 rev3 schematics](dan64_v1-schematics.pdf) (PDF)
+ * [DAN64 V1.R3 manual](dan64_v1-manual.pdf) (PDF; includes VM API docs, schematics, component list, etc)
 
 The microcomputer can be assembled on a breadboard with a regular Arduino Uno.
 
