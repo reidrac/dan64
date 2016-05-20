@@ -1,6 +1,6 @@
 % DAN64: an AVR based 8-bit Microcomputer
 % Juan J. Martínez <jjm@usebox.net>
-% Manual for V1.R2 - May 18, 2016
+% Manual for V1.R3 - May 20, 2016
 
 # Features
 
